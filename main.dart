@@ -230,7 +230,7 @@ void main() {
   print('Email after ??=: ${userWithNulls.email}'); // "no-email@example.com"
   
   // Demonstrating null assertion cautiously:
-  // This would throw a runtime error if nickname is null without a check!
+  // This would throw a runtime error if nickname is null without a check
   // print(userWithNulls.nickname!.toUpperCase()); 
   if (userWithNulls.nickname != null) {
     print('Nickname (null assertion): ${userWithNulls.nickname!.toUpperCase()}');
