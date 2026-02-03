@@ -5,8 +5,6 @@ int multiply(int a, int b) => a * b;
 bool isPositive(int number) => number > 0;
 String sayHello(String name) => 'Hello, $name!';
 
-// 2) Demonstrate anonymous functions.
-
 // 3) Demonstrate functions with named and unnamed parameters.
 // Unnamed (positional) parameters
 int subtract(int a, int b) => a - b;
